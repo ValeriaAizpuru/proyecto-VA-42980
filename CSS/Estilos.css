@@ -1,0 +1,149 @@
+/*Esta es la forma de comentar*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,500;0,700;1,700&display=swap');
+
+.colorNav{
+    background-color: rgb(206, 206, 206);
+}
+.nav-item{
+    font-size: 1.2rem;
+}
+body{
+    height: 100vh;
+}
+
+main{
+    background-color: rgb(202, 41, 41);
+}
+footer{
+    height: 20%;
+    background-color: rgb(196, 191, 191);
+}
+@media screen and (max-width: 768px) {
+    .nav-link{
+        flex-direction: column;
+    }
+.nav-link-i{
+    font-size: 0,7rem;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ejemplos de cursada*/
+/*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} /* Lo anterior es pare resetear y que no queden los espaciados blancos en los margenes de la pantalla que vienen por defecto, se pueden definir tods las variables por separado: botton, top, right y left*/
+/*.h1{
+    color: rgb(211, 35, 12);
+    font-size: 2.5rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+    text-align: center; /* para centrar el texto*/
+/*.PP{
+    color: rgb(18, 167, 129);
+    font-size:  1.5rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: 500;
+}
+.PS{
+    color: coral;
+    font-size: 1rem;
+}
+.PT{
+    color: rgb(24, 110, 207);
+    font-size: 1rem;
+}
+
+.Navegacion .ListaD .ListaItem a{
+    color: rgb(252, 43, 189);
+    font-size: 1rem;
+}
+.seccionH{
+    color: black;
+    font-size: 1rem;
+    background-color: aqua;
+}
+.titulo2{
+    font-size: 1rem;
+}
+
+    /* conviene usar unidades relativas y no absolutas, ejemplo: ´px´ es absoluta, se adpata a mi html  y no al requerimiento del usuario, en cambio si uso ´rem´, es relaitva, (1rem=16px), pero si el usuario tiene en su computadora establecido 24px, 1rem será igual a 24px*/   
+    /* width:50% toma la mitad del ancho del padre- height:50% no puede usarse el porcentaje, sólo puede hacerse en caso de que el padre tenga asignada a una medida absoluta en su height (lo cual es conveniente no hacer)*/
+    /* Existe la opción ´vh´en la cual el porcentaje es en relación al tamaño de la pantalla y no al padre del texto*/
+    /* De todas formas, lo mejor es no limitar el alto y que se adapte al contenido, sino existe una opción ´overflow: auto´ que lo que hace es poner una barra espaciadora en caso de que se produzca desbordamiento*/ 
+    /* box- sizing: border-box; respeta las medidas puesta a la caja*/
+
+   /* .header_sticky{
+        /*background-color: rgba(243, 11, 166, 0.5); (si quiero ponerle color de fondo, pero le puse imagen*/ 
+      /* margin-bottom: 10px ;
+        padding:10px;
+        position: sticky ;   
+        top:0px;
+        z-index:10; /* El valor que se pone es para generar un orden de importancia en lo que se cuando se mueve en la pág., cualquier valor por debajo de este nro quedará por debajo en la imagen*/
+        /*background-image: url(header.jpg);
+        background-position: center;
+        background-repeat: no-repeat;*/
+       
+    /*}
+    .ListaD{
+        display: flex; /* Los hijos del element flexible pasana ser flex items- Esto es para ordenar el comando (inicio-productos-más info-etc) en fila y no uno abajo del otro// Por defecto es flex direction-row, pero puedo establecer que sea "flex-direction: column"*/
+        /*height: 70px;
+        justify-content: center; /* alinea en el eje ppal del cotenedor-esto es para centrar los box del comando */
+        align-items: center; /* alinea a los hijos en el eje contrario al contenedor*/
+ /*   }  
+    
+    .ListaItem{
+        background-color: rgb(231, 238, 245);
+        border: 1px solid black;
+        text-align: center;
+        font-size: 1.5rem;
+        width: 100px;
+        height: 30px;
+        display: inline-block;
+        
+    }
+    .imagproducts{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center ;
+        /*align-items: center;
+        text-align: center;
+        align-content: center;*/
+  /*  }
+  
+    .galeria{
+        background-color: rgb(10, 186, 192);
+        width: 350px;
+        height: 350px;
+        border-radius: 5px; /*le hace el borde redondeado al fondo gris*/
+        /*display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .galeria img{
+        width: 70%;
+        height: 70%;
+        object-fit:cover; /* para que no se deforme la imag*/
+       /* border-radius: 5px;
+    }*/
