@@ -12,9 +12,9 @@
         <link rel="stylesheet" href="./CSS/Estilos.css"> <!--Este CSS (nuestro) tiene que estar después que el de bootstrap por condición de cascada-->
     </head>
     <body>
-        <header class="container-fluid"> <!--*(le saqué el fluid para usar el prototipo) header sticky. ella le puso antes de container "bg-secondary" "-->
+        <header> <!--*(le saqué el container-fluid para usar el prototipo, porque se chocan con el de bS) header sticky. ella le puso antes de container "bg-secondary" para ver el lugar que ocupa "-->
             <nav class="navbar navbar-expand-lg navbar-light colorNav">
-                <div class="container-fluid">
+                <div class="container">
                   <a class="navbar-brand" href="#">
                      <img src="./Assets/img/Logo.JPG" alt="" width="115" height="90">
                     </a>
@@ -27,16 +27,16 @@
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Productos</a>
+                        <a class="nav-link" href="">Productos</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Más Info</a>
+                        <a class="nav-link" href="">Más Info</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="">Nosotros</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="">Contacto</a>
                       </li> 
                     </ul>
                   </div>
@@ -67,18 +67,20 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>   
-            <p class="main-pp">¡Sumate a la experiencia! </p> <!-- Kombucha, Kefir y jugos Detox #conectaconvos--> <!--PP significa párrafo ppal-->
-            <section class="main-seccion"> <!--si le pongo la cualidad "!important" a la class, nunca va a ser sobre pasada por otra, podemos usar 5 más en todo el proyecto-->
-                <h2 class="main-seccion-h2">  Queremos que seas parte!  </h2> <!--Herencia CSS-->
-                <!--Le pongo otra class a h2 si quiero que no tome la característica de tamaño con la que ya está definida (distinta a seccionH, y la cual no tomo x defecto) y quiero ponerle el tamaño de seccion h2-->
-                <p> Seamos más naturales! junto con la Kombucha y el Kefir 
-                    Estamos en la búsqueda del equilibrio entre cuerpo y mente</p> 
-                <a href="">ancla</a>
-            </section>
+              <section class="row">
+                <div class="col-12">
+                  <div class="row">
+                    <h2>¡Sumate a la experiencia!</h2>
+                    <p class="col-6">  Queremos que seas parte, Estamos en la búsqueda del equilibrio entre cuerpo y mente</p>
+                    <img class="col-6" src="./Assets/img/frutillaulimon.JPG" alt="">
+                    <img class="col-6" src="./Assets/img/ellaLimon.jpg" alt="">
+                    <img class="col-6" src="./Assets/img/Kefir-mar.JPG" alt="">
+                  </div>
+                </div>
+                <p></p>
+
         </main>
-        <!--<aside>
-            <p> Vamos a poner pubicidad</p>
-        </aside>-->
+     
         <footer class=" container-fluid footer">
             <p class="footer-PS"> Párrafo pie de pág </p> <!--PS párrafo secundario-->
             <p class="footer-PS">Conocenos más en nuestras redes sociales</p>
