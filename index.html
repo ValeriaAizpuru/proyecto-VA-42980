@@ -12,31 +12,31 @@
         <link rel="stylesheet" href="./CSS/Estilos.css"> <!--Este CSS (nuestro) tiene que estar después que el de bootstrap por condición de cascada-->
     </head>
     <body>
-        <header> <!--*(le saqué el container-fluid para usar el prototipo, porque se chocan con el de bS) header sticky. ella le puso antes de container "bg-secondary" para ver el lugar que ocupa "-->
+        <header> <!--*(le saqué el container-fluid para usar el prototipo, porque se chocan con el de BS). ella le puso antes de container "bg-secondary" para ver el lugar que ocupa "-->
             <nav class="navbar navbar-expand-lg navbar-light colorNav">
                 <div class="container">
                   <a class="navbar-brand" href="#">
-                     <img src="./Assets/img/Logo.JPG" alt="" width="115" height="90">
+                     <img src="./Assets/img/Logo.JPG" class="rounded-circle" alt="" width="115" height="90">
                     </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button> <!--Botón menú hamburguesa-->
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center align-items-center"> <!-- bg primary para ver con el fondo qué lugar está ocupando; w-100 lo ponemos para que ocupe todo el espacio de ancho de su padre-->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end align-items-center"> <!--w-100 lo ponemos para que ocupe todo el espacio de ancho de su padre-->
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active colorinicio" aria-current="page" href="#">Inicio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="">Productos</a>
+                        <a class="nav-link colorbot" href="./Pages/Productos.html">Productos</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="">Más Info</a>
+                        <a class="nav-link colorbot" href="./Pages/Info.html">Más Info</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="">Nosotros</a>
+                        <a class="nav-link colorbot" href="./Pages/Nosotros.html">Nosotros</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="">Contacto</a>
+                        <a class="nav-link colorbot" href="./Pages/Contacto.html">Contacto</a>
                       </li> 
                     </ul>
                   </div>
@@ -46,16 +46,17 @@
         </header>
         <main class="container-fluid">
             <h1 class="main-h1"> Y vos, ¿de que estás hecho? #conectateconvos </h1>
+            <!--CAROUSEL BS-->
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./Assets/img/Tx2.JPG" class="d-block w-100" alt="...">
+                    <img src="./Assets/img/Carousel11.jpg" class="d-block w-100 imgadap" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="./Assets/img/lonades.jpg" class="d-block w-100" alt="...">
+                    <img src="./Assets/img/Caousel22.jpg" class="d-block w-100 imgadap" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="./Assets/img/manofruti.JPG" class="d-block w-100" alt="...">
+                    <img src="./Assets/img/Carousel33.jpg" class="d-block w-100 imgadap" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -71,17 +72,33 @@
                 <div class="col-12">
                   <div class="row">
                     <h2>¡Sumate a la experiencia!</h2>
-                    <p class="col-6">  Queremos que seas parte, Estamos en la búsqueda del equilibrio entre cuerpo y mente</p>
-                    <img class="col-6" src="./Assets/img/frutillaulimon.JPG" alt="">
-                    <img class="col-6" src="./Assets/img/ellaLimon.jpg" alt="">
-                    <img class="col-6" src="./Assets/img/Kefir-mar.JPG" alt="">
+                    <p class="col-6"> SEAMOS MÁS NATURALES </p> <!---->
+                    <img class="col-6" src="./Assets/img/frutillaulimon.JPG" alt="card">
+                    <img class="col-6" src="./Assets/img/ellaLimon.jpg" alt="card">
+                    <img class="col-6" src="./Assets/img/Kefir-mar.JPG" alt="card">
                   </div>
                 </div>
-                <p></p>
+              
 
         </main>
      
-        <footer class=" container-fluid footer">
+        <footer class=" footer container-fluid">
+          <div class="row justify-content-center align-items-center text-center">
+            <div class="col-12">
+              <a class="text-decoration-none" href=""><i>Instagram</i></a>
+              <a class="text-decoration-none" href=""><i>Facebook</i></a>
+            </div>
+            <nav class="col-12">
+              <ul class="row list-unstyled">
+                <li class="col "><a class="text-decoration-none" href="">Link</a></li>
+                <li class="col"><a href="">Link</a></li>
+              </ul>
+            </nav>
+          </div>
+
+       
+
+          
             <p class="footer-PS"> Párrafo pie de pág </p> <!--PS párrafo secundario-->
             <p class="footer-PS">Encontranos en nuestras redes sociales y enterate de las novedades</p>
             <p class="footer-PT">Todos los derechos reservados SOL-marca registrada</p> <!--PST párrafo terciario-->
@@ -118,24 +135,3 @@
 
 
 
-<!--OBSOLETO-->
-<!--
-<div class="row"> ponerle class row (en bootstrap es display flex, y está determinado para hasta 12 columnas)al padre y class col a los hijos hace que se / la fila en 2 columnas. Si a la class col le pongo class col-10 ocupará 10 columnas y el otro 2 columnas--> 
-    <!--<div class="col-md-1 col-sm-12 logo">
-        <a href="#"> 
-            <img src="./Assets/img/Logo.JPG" alt="Logo de la marca Seed of Life" width="100px">
-        </a>
-    </div>
-    <nav class="col-md-11 col-sm-12 nav">
-        <ul class="nav-link"> Lista desordenada-->
-           <!--
-            <li><a class="nav-link-i" href="#"> Inicio </a></li>
-            <li><a class="nav-link-i" href="./Pages/Productos.html"> Productos </a></li>
-            <li><a class="nav-link-i" href="./Pages/Info.html"> Más Info </a></li>
-            <li><a class="nav-link-i" href="./Pages/Nosotros.html"> Nosotros </a></li>
-            <li><a class="nav-link-i" href="./Pages/Contacto.html"> Contacto </a></li> 
-            <li><a class="nav-link-i" target="_blank" href="https://instagram.com/seedoflifejugos?igshid=Y2IzZGU1MTFhOQ=="> Nuestro Instagram! </a></li>          
-           -->        
-        <!--</ul>
-    </nav>   
-</div>-->
