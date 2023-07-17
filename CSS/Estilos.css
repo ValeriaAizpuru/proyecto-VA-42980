@@ -9,14 +9,15 @@
 }
 
 .colorNav{
-    background-color: rgb(185, 183, 183);
+    background-color: rgb(141, 140, 140);
 }
 .nav-item{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .navbar-light .navbar-nav .nav-link.colorinicio{
-    color:rgb(219, 81, 81)
-}
+    font-size: 1.4rem;
+    color:rgb(14, 13, 13)
+}    
 .navbar-light .navbar-nav .nav-link.colorbot{
     color:rgb(98, 102, 102)
 }
@@ -34,8 +35,10 @@
     height: 100%;
     object-fit: cover;
 }
-
-
+.card{
+    width: 50rem;
+    
+}
 body{
     font-family: 'Ysabeau Infant', sans-serif;
 }
