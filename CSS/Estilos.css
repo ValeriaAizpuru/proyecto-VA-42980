@@ -56,7 +56,7 @@ body{
 
 
 main{
-    background-color: rgb(238, 105, 105);
+    background-color: rgb(247, 81, 81);
 }
 
 
@@ -64,6 +64,7 @@ main{
     height: 20%;
     background-color: rgb(196, 191, 191);
 }
+
 @media screen and (max-width: 768px) {
     .nav-link{
         flex-direction: column;
@@ -89,12 +90,12 @@ main{
 }
 .imgindex{
     display: flex;
-   
-    
+    justify-content: center;
+    margin-top: 2 rem;
+    margin-bottom: 2rem;
 }
 .imgix{
     width: 100%;
-
 }
 
 
