@@ -55,15 +55,12 @@ body{
 }
 
 
-
 main{
     background-color: rgb(238, 105, 105);
 }
 
 
-
-
-footer{
+.footer{
     height: 20%;
     background-color: rgb(196, 191, 191);
 }
@@ -71,12 +68,34 @@ footer{
     .nav-link{
         flex-direction: column;
     }
+
 .nav-link-i{
     font-size: 0,7rem;
 }
     
 }
 
+.imgbolsa{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    
+}
+.bol{
+    width: 600px;
+}
+.comprar{
+    font-size: 1.5rem;
+}
+.imgindex{
+    display: flex;
+   
+    
+}
+.imgix{
+    width: 100%;
+
+}
 
 
 
