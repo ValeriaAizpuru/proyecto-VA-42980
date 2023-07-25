@@ -8,6 +8,7 @@
     box-sizing: border-box
 }
 
+
 .colorNav{
     background-color: rgb(141, 140, 140);
 }
@@ -61,7 +62,7 @@ main{
 
 
 .footer{
-    height: 20%;
+    height: 25%;
     background-color: rgb(196, 191, 191);
 }
 
