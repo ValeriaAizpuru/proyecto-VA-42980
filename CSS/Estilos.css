@@ -1,240 +1,126 @@
-/*Esta es la forma de comentar*/
-
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,1000&display=swap');
-
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
+/*
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,1000&display=swap');*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.colorNav{
-    background-color: rgb(141, 140, 140);
-}
-.nav-item{
-    font-size: 1.4rem;
-}
-.navbar-light .navbar-nav .nav-link.colorinicio{
-    font-size: 1.4rem;
-    color:rgb(14, 13, 13)
-}    
-.navbar-light .navbar-nav .nav-link.colorbot{
-    color:rgb(98, 102, 102)
+.colorNav {
+  background-color: rgb(141, 140, 140);
 }
 
-.carousel{
-    width: 100%;
+.nav-item {
+  font-size: 1.4rem;
 }
 
-.carousel-item{
-    height: 100vh;
-    width: 100%;
-}
-.carousel-item .imgadap{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.card{
-    width: 50rem;
-    
-}
-body{
-    font-family: 'Ysabeau Infant', sans-serif;
-}
-body{
-    height: 100vh;
-}
-.eslogan{
-    width: 100%;
-    height: 100%;
-}
-.card{
-    width: 20rem;
-    margin-bottom: 1rem;
+.navbar-light .navbar-nav .nav-link.colorinicio {
+  font-size: 1.4rem;
+  color: rgb(14, 13, 13);
 }
 
-
-main{
-    background-color: rgb(247, 81, 81);
+.navbar-light .navbar-nav .nav-link.colorbot {
+  color: rgb(98, 102, 102);
 }
 
+.carousel {
+  width: 100%;
+}
 
-.footer{
-    height: 25%;
-    background-color: rgb(196, 191, 191);
+.carousel-item {
+  height: 100vh;
+  width: 100%;
+}
+
+.carousel-item .imgadap {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card {
+  width: 50rem;
+}
+
+body {
+  font-family: "Ysabeau Infant", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+.eslogan {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  width: 20rem;
+  margin-bottom: 1rem;
+}
+
+main {
+  background-color: rgb(247, 81, 81);
+}
+
+.footer {
+  height: 25%;
+  background-color: rgb(196, 191, 191);
 }
 
 @media screen and (max-width: 768px) {
-    .nav-link{
-        flex-direction: column;
-    }
-
-.nav-link-i{
-    font-size: 0,7rem;
+  .nav-link {
+    flex-direction: column;
+  }
+  .nav-link-i {
+    font-size: 0, 7rem;
+  }
 }
-    
-}
-
-.imgbolsa{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5rem;
-    
-}
-.bol{
-    width: 600px;
-}
-.comprar{
-    font-size: 1.5rem;
-}
-.imgindex{
-    display: flex;
-    justify-content: center;
-    margin-top: 2 rem;
-    margin-bottom: 2rem;
-}
-.imgix{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center ;
-}
-.imgix{
-    width: 500px;
-    height: 800px;
-}
-.nosotros{
-    display: flex;
-    justify-content: center;
-    margin-top: 5 rem;
-    margin-bottom: 2rem;
-}
-.foto-nosotros{
-    width: 100%;
-}
-.parrafo-nosotros{
-    width: 90%;
+.imgbolsa {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Ejemplos de cursada*/
-/*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-} /* Lo anterior es pare resetear y que no queden los espaciados blancos en los margenes de la pantalla que vienen por defecto, se pueden definir tods las variables por separado: botton, top, right y left*/
-/*.h1{
-    color: rgb(211, 35, 12);
-    font-size: 2.5rem;
-    font-family: 'Ysabeau Infant', sans-serif;
-    text-align: center; /* para centrar el texto*/
-/*.PP{
-    color: rgb(18, 167, 129);
-    font-size:  1.5rem;
-    font-family: 'Ysabeau Infant', sans-serif;
-    font-weight: 500;
-}
-.PS{
-    color: coral;
-    font-size: 1rem;
-}
-.PT{
-    color: rgb(24, 110, 207);
-    font-size: 1rem;
+.bol {
+  width: 600px;
 }
 
-.Navegacion .ListaD .ListaItem a{
-    color: rgb(252, 43, 189);
-    font-size: 1rem;
-}
-.seccionH{
-    color: black;
-    font-size: 1rem;
-    background-color: aqua;
-}
-.titulo2{
-    font-size: 1rem;
+.comprar {
+  font-size: 1.5rem;
 }
 
-    /* conviene usar unidades relativas y no absolutas, ejemplo: ´px´ es absoluta, se adpata a mi html  y no al requerimiento del usuario, en cambio si uso ´rem´, es relaitva, (1rem=16px), pero si el usuario tiene en su computadora establecido 24px, 1rem será igual a 24px*/   
-    /* width:50% toma la mitad del ancho del padre- height:50% no puede usarse el porcentaje, sólo puede hacerse en caso de que el padre tenga asignada a una medida absoluta en su height (lo cual es conveniente no hacer)*/
-    /* Existe la opción ´vh´en la cual el porcentaje es en relación al tamaño de la pantalla y no al padre del texto*/
-    /* De todas formas, lo mejor es no limitar el alto y que se adapte al contenido, sino existe una opción ´overflow: auto´ que lo que hace es poner una barra espaciadora en caso de que se produzca desbordamiento*/ 
-    /* box- sizing: border-box; respeta las medidas puesta a la caja*/
+.imgindex {
+  display: flex;
+  justify-content: center;
+  margin-top: 2 rem;
+  margin-bottom: 2rem;
+}
 
-   /* .header_sticky{
-        /*background-color: rgba(243, 11, 166, 0.5); (si quiero ponerle color de fondo, pero le puse imagen*/ 
-      /* margin-bottom: 10px ;
-        padding:10px;
-        position: sticky ;   
-        top:0px;
-        z-index:10; /* El valor que se pone es para generar un orden de importancia en lo que se cuando se mueve en la pág., cualquier valor por debajo de este nro quedará por debajo en la imagen*/
-        /*background-image: url(header.jpg);
-        background-position: center;
-        background-repeat: no-repeat;*/
-       
-    /*}
-    .ListaD{
-        display: flex; /* Los hijos del element flexible pasana ser flex items- Esto es para ordenar el comando (inicio-productos-más info-etc) en fila y no uno abajo del otro// Por defecto es flex direction-row, pero puedo establecer que sea "flex-direction: column"*/
-        /*height: 70px;
-        justify-content: center; /* alinea en el eje ppal del cotenedor-esto es para centrar los box del comando */
-        align-items: center; /* alinea a los hijos en el eje contrario al contenedor*/
- /*   }  
-    
-    .ListaItem{
-        background-color: rgb(231, 238, 245);
-        border: 1px solid black;
-        text-align: center;
-        font-size: 1.5rem;
-        width: 100px;
-        height: 30px;
-        display: inline-block;
-        
-    }
-    .imagproducts{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center ;
-        /*align-items: center;
-        text-align: center;
-        align-content: center;*/
-  /*  }
-  
-    .galeria{
-        background-color: rgb(10, 186, 192);
-        width: 350px;
-        height: 350px;
-        border-radius: 5px; /*le hace el borde redondeado al fondo gris*/
-        /*display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 20px;
-    }
+.imgix {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-    .galeria img{
-        width: 70%;
-        height: 70%;
-        object-fit:cover; /* para que no se deforme la imag*/
-       /* border-radius: 5px;
-    }*/
+.imgix {
+  width: 500px;
+  height: 800px;
+}
+
+.nosotros {
+  display: flex;
+  justify-content: center;
+  margin-top: 5 rem;
+  margin-bottom: 2rem;
+}
+
+.foto-nosotros {
+  width: 100%;
+}
+
+.parrafo-nosotros {
+  width: 90%;
+}/*# sourceMappingURL=estilos.css.map */
