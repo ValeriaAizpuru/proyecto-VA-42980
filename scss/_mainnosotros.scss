@@ -1,0 +1,13 @@
+
+.nosotros{
+    display: flex;
+    justify-content: center;
+    margin-top: 5 rem;
+    margin-bottom: 2rem;
+    .foto-nosotros{
+        width: 100%;
+    }
+    .parrafo-nosotros{
+        width: 90%;
+    }
+}
