@@ -18,22 +18,35 @@
   height: 100%;
 }
 
-.parrafo-nosotros {
-  width: 90%;
+.main-h1 {
+  color: azure;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.main-h2 {
+  color: azure;
+  font-weight: 100;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .main-h3 {
   color: azure;
   font-weight: 100;
+  margin-left: 2px;
+  margin-bottom: 12px;
 }
 
 .main-p {
   color: azure;
   font-size: 1, 3rem;
+  margin-left: 2px;
 }
 
 .colorNav {
   background-color: rgb(141, 140, 140);
+  height: 25%;
 }
 .colorNav .nav-item {
   font-size: 1.4rem;
@@ -52,15 +65,8 @@
   }
 }
 main {
+  width: 100%;
   background-color: rgb(247, 81, 81);
-}
-main .main-h1 {
-  color: azure;
-  font-weight: 400;
-}
-main .main-h2 {
-  color: azure;
-  font-weight: 100;
 }
 main .carousel {
   width: 100%;
@@ -83,8 +89,8 @@ main .imgindex .imgix {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 500px;
-  height: 700px;
+  width: 300px;
+  height: 450px;
 }
 
 .footer {

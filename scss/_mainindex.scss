@@ -1,12 +1,6 @@
 main{
-    background-color: rgb(247, 81, 81);
-    .main-h1{
-        color: map-get($fuentes,color);
-        font-weight: map-get($fuentes,regular);}
-    .main-h2{
-        color: map-get($fuentes,color);
-        font-weight: map-get($fuentes,thin);
-        }       
+    width: 100%;   
+    background-color: rgb(247, 81, 81);       
     .carousel{
         width: 100%;
         .carousel-item{
@@ -24,8 +18,8 @@ main{
                 display: flex;
                 flex-wrap: wrap;
                 justify-content:center ;
-                width: 500px;
-                height: 700px;
+                width: 300px;
+                height: 450px;
             }
         }      
 }
