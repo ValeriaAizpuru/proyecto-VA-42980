@@ -13,11 +13,6 @@
   font-size: 2rem;
 }
 
-.eslogan {
-  width: 100%;
-  height: 100%;
-}
-
 .main-h1 {
   color: azure;
   font-weight: 400;
@@ -44,8 +39,12 @@
   margin-left: 2px;
 }
 
+.imgcontacto {
+  width: 1320px;
+}
+
 .colorNav {
-  background-color: rgb(141, 140, 140);
+  background-color: rgb(248, 117, 149);
   height: 25%;
 }
 .colorNav .nav-item {
@@ -53,10 +52,10 @@
 }
 .colorNav .nav-item .navbar-light .navbar-nav .nav-link.colorinicio {
   font-size: 1.4rem;
-  color: rgb(14, 13, 13);
+  color: rgb(192, 9, 9);
 }
 .colorNav .nav-item .navbar-light .navbar-nav .nav-link.colorbot {
-  color: rgb(98, 102, 102);
+  color: rgb(18, 144, 148);
 }
 
 @media screen and (max-width: 768px) {
@@ -66,7 +65,7 @@
 }
 main {
   width: 100%;
-  background-color: rgb(247, 81, 81);
+  background-color: rgb(160, 154, 154);
 }
 main .carousel {
   width: 100%;
@@ -95,7 +94,7 @@ main .imgindex .imgix {
 
 .footer {
   height: 25%;
-  background-color: rgb(141, 140, 140);
+  background-color: rgb(248, 117, 149);
 }
 
 .imgbolsa {
@@ -121,4 +120,11 @@ main .imgindex .imgix {
 }
 .nosotros .foto-nosotros {
   width: 100%;
+}
+
+.imgcontacto {
+  display: flex;
+  justify-content: center;
+  margin-top: margin-top;
+  margin-bottom: 2rem;
 }/*# sourceMappingURL=estilos.css.map */
