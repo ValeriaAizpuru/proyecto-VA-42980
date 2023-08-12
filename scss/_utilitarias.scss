@@ -1,0 +1,29 @@
+.comprar{
+    font-size: 2rem;
+}
+.eslogan{
+    width: 100%;
+    height: 100%;
+}
+.main-h1{
+    color: map-get($fuentes,color);
+    font-weight: map-get($fuentes,regular);
+    margin-bottom: 20px;
+}
+.main-h2{
+    color: map-get($fuentes,color);
+    font-weight: map-get($fuentes,thin);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    } 
+.main-h3{
+    color: map-get($fuentes,color);
+    font-weight: map-get($fuentes,thin);
+    margin-left: 2px;
+    margin-bottom: 12px;
+    }   
+.main-p{
+    color: map-get($fuentes,color);
+    font-size: 1,3rem;
+    margin-left: 2px;
+}
