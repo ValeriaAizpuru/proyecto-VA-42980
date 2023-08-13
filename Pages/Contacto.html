@@ -51,97 +51,61 @@
 
         <main class="container-fluid">
           <div>
-            <div class="row justify-content-center align-items-center">
-              <div class=" d-flex justify-content-center">
-                <div >
-                  <h1 class="position-absolute main-h1">CONTACTO</h1>
-                  <img class="imgcontacto w-100" src="../assets/img/contacto-1.jpg" alt="">
-                  
+            <div class="justify-content-center align-items-center">
+                <div class="col-12">
+                  <h1 class="text-cont position-absolute main-h1">CONTACTO</h1>
+                  <img class="imgcontacto d-block w-100" src="../assets/img/img-contactoCo.jpg" alt="Imagen botella página contacto">                
                 </div>                
-              </div>
             </div>
+            <div>
+              <h2 class="text-center main-h2"> Estamos en varios puntos de Mardel! Encontranos en el mapa </h2>
+            </div>
+           
             <div class="col-sm-12 col-md-6 d-flex justify-content-center">
               <div>
-                <h2 class="row main-h2"> Estamos en varios puntos de Mardel! Encontranos en el mapa </h2>
+                
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1870.2294473322784!2d-57.54537245524057!3d-37.969229522750275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dbdd976c266b%3A0x849bd4528619b0de!2sPatagones%20%26%20Avenida%20Constituci%C3%B3n%2C%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1687268856330!5m2!1ses-419!2sar" width="450" height="337" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </div>
           </div>
-
-
-
-
-
-
-
-
-
-
-
-            
-
-
-          
-        
-
-
-
-
-
-
-
-
-
-
-         <!-- <div class="row">
-            <div class="position-relative">
-                <h1 class="text-center position-absolute  main-h1">CONTACTO</h1>
-                <img src="../assets/img/contacto-1.jpg" alt="">   
-            </div>
-          </div>
-
-            <div>
-                <h2 class="main-h2">Estamos en varios puntos de Mardel! Encontranos en el mapa</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1870.2294473322784!2d-57.54537245524057!3d-37.969229522750275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dbdd976c266b%3A0x849bd4528619b0de!2sPatagones%20%26%20Avenida%20Constituci%C3%B3n%2C%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1687268856330!5m2!1ses-419!2sar" width="480" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div> --> 
+          <div class="container">
             <form action="./404.html">
-                <h2 class="main-h2 text-center">ESCRIBINOS</h2>
-                <div class="row justify-content-center align-items-center" >
-                  <div class=" d-flex justify-content-center">                    
-                    <input id="Nombre" placeholder="Nombre" required>
-                    <input id="Apellido" placeholder="Apellido" required>
-                  </div>
-                  <div class="d-flex justify-content-center" >
-                    <input type="email" placeholder="email/ ejemplo@gmail.com" required>
-                    <input type="Teléfono" placeholder="Teléfono">
-                  </div>
-                  <div class=" d-flex justify-content-center" >
-                    <textarea name="" id="" cols="48" rows="10" placeholder="Ingrese su comentario" required></textarea>
-                  </div>
-                  <div class=" d-flex justify-content-center mb-4">
-                    <input type="reset" value="Borrar comentario">
-                    <input type="submit" value="Enviar comentario">
-                  </div>
+              <h2 class="main-h2 text-center">ESCRIBINOS</h2>
+              <div class="row justify-content-center align-items-center">
+                <div class="d-flex justify-content-center mb-3">
+                  <input id="Nombre" class="form-control mr-3" placeholder="Nombre" required>
+                  <input id="Apellido" class="form-control" placeholder="Apellido" required>
                 </div>
-                
+                <div class="d-flex justify-content-center mb-3">
+                  <input type="email" class="form-control mr-3" placeholder="email/ ejemplo@gmail.com" required>
+                  <input type="tel" class="form-control" placeholder="Teléfono">
+                </div>
+                <div class="d-flex justify-content-center mb-3">
+                  <textarea class="form-control" cols="48" rows="5" placeholder="Ingrese su comentario" required></textarea>
+                </div>
+                <div class="d-flex justify-content-center mb-4">
+                  <input type="reset" class="btn btn-secondary mr-3" value="Borrar comentario">
+                  <input type="submit" class="btn btn-danger" value="Enviar comentario">
+                </div>
+              </div>
             </form>
         </main>
         <footer class=" footer container-fluid">
-            <div class="row justify-content-center align-items-center "> 
-              <div class="col-12">
-                <div class="row">
-                  <li class="nav-item">
-                    <a target="col-6 _blank" class="text-decoration-none text-white-50 bg-warning"  href="https://instagram.com/seedoflifejugos?igshid=Y2IzZGU1MTFhOQ=="> Nuestro Instagram! </a> 
-                  </li>
-                    <li class="nav-item">
-                      <a target=" col-6 _blank" class="text-decoration-none text-white-50 bg-warning"  href="https://www.facebook.com/people/Seed-of-Life-Jugos/100066350181015/"> Nuestro Facebook! </a> 
-                    </li>
-                    <p class= " text-center col-12"> Jugos hechos 100% artesanales </p> 
-                    <p class="text-end col-12"> <i> Todos los derechos reservados SOL-marca registrada </i></p> 
-                </div>
-              </div>
-            </div>           
-          </footer>
+          <div class="row"> 
+            <div class="col-md-12">
+              <a href="https://instagram.com/seedoflifejugos?igshid=Y2IzZGU1MTFhOQ==" target="_blank" class="footer-icons">
+                <img src="../assets/img/logo-instagram.png" alt="Logo de Instagram">
+              </a>            
+              <a href="https://www.facebook.com/people/Seed-of-Life-Jugos/100066350181015/" target="_blank" class="footer-icons">
+                <img src="../assets/img/logo-facebook.png" alt="Logo de Facebook">
+              </a>
+              <a href=" https://wa.me/+5492234246848" target="_blank" class="footer-icons">
+                <img src="../assets/img/logo-whatsapp.png" alt="Logo de WhatsApp">
+              </a>
+            </div>       
+            <p class="col-md-12 text-end"> <i> Jugos hechos 100% artesanales </i></p>         
+          </div>           
+        </footer>
               <script src="../JS/bootstrap.bundle.min.js"></script>
     </body>
 </html>

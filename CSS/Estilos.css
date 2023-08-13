@@ -44,7 +44,7 @@
 }
 
 .colorNav {
-  background-color: rgb(248, 117, 149);
+  background-color: rgb(207, 21, 68);
   height: 25%;
 }
 .colorNav .nav-item {
@@ -52,7 +52,7 @@
 }
 .colorNav .nav-item .navbar-light .navbar-nav .nav-link.colorinicio {
   font-size: 1.4rem;
-  color: rgb(192, 9, 9);
+  color: rgb(36, 35, 35);
 }
 .colorNav .nav-item .navbar-light .navbar-nav .nav-link.colorbot {
   color: rgb(18, 144, 148);
@@ -81,7 +81,7 @@ main .carousel .carousel-item .imgadap {
 main .imgindex {
   display: flex;
   justify-content: center;
-  margin-top: margin-top;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 main .imgindex .imgix {
@@ -93,8 +93,12 @@ main .imgindex .imgix {
 }
 
 .footer {
-  height: 25%;
-  background-color: rgb(248, 117, 149);
+  background-color: rgb(207, 21, 68);
+  padding: 20px;
+}
+
+.footer-icons {
+  margin-right: 20px;
 }
 
 .imgbolsa {
@@ -103,7 +107,7 @@ main .imgindex .imgix {
   margin-bottom: 5rem;
 }
 .imgbolsa .bol {
-  width: 600px;
+  width: 535px;
 }
 
 .card {
@@ -115,16 +119,20 @@ main .imgindex .imgix {
 .nosotros {
   display: flex;
   justify-content: center;
-  margin-top: margin-top;
+  margin-top: 5rem;
   margin-bottom: 2rem;
 }
 .nosotros .foto-nosotros {
   width: 100%;
 }
 
+.text-cont {
+  margin-left: 40%;
+}
+
 .imgcontacto {
   display: flex;
   justify-content: center;
-  margin-top: margin-top;
+  margin-top: 0rem;
   margin-bottom: 2rem;
 }/*# sourceMappingURL=estilos.css.map */
